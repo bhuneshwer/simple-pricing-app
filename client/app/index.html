@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache, no-store">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Price Calculator</title>
+    <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="url-config.js"></script>
+    <script src="js/globals.js"></script>
+    <script src="js/http-handlers.js"></script>
+</head>
+
+<body>
+    <!-- <header>
+        <div class="navbar navbar-light fixed-top" style="min-height:40px;background-color: #e3f2fd;">
+            <div class="container d-flex justify-content-between">
+            </div>
+        </div>
+    </header> -->
+    <div>
+        <form class="form-horizontal">
+            <fieldset style="margin-top: 50px">
+                <!-- Form Name -->
+                <legend></legend>
+                <!-- Select Basic -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="websites_list">Select Website</label>
+                    <div class="col-md-4">
+                        <select id="websites_list" name="websites_list" class="form-control">
+                        </select>
+                    </div>
+                </div>
+                <!-- Select Basic -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="type_list">Select Type</label>
+                    <div class="col-md-4">
+                        <select id="type_list" name="type_list" class="form-control">
+                            <option value="">Select Filter type</option>
+                            <option value="brands">Brand</option>
+                            <option value="category">Category</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- Select Basic -->
+                <div class="form-group">
+                    <!-- <label class="col-md-4 control-label" for="brands_list">Select Brand</label> -->
+                    <div class="col-md-4">
+                        <select id="brands_list" name="brands_list" class="form-control">
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <!-- <label class="col-md-4 control-label" for="categories_list">Select Category</label> -->
+                    <div class="col-md-4">
+                        <select id="categories_list" name="categories_list" class="form-control">
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <div class="">
+            <table class="table">
+                <thead>
+                    <th>Product Name</th>
+                    <th>Product URL</th>
+                    <th>Brand</th>
+                    <th>Image URL</th>
+                    <th>Product Price</th>
+                    <th>Product MRP</th>
+                    <th>Packing Qty</th>
+                    <th>MOQ</th>
+                    <th>Product Discount</th>
+                    <th>Category Path</th>
+                </thead>
+                <tbody id="productsListContainer">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="js/main.js"></script>
+<script src="//code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>
